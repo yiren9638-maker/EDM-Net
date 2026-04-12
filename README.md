@@ -1,0 +1,1 @@
+python train.py configs/cityscapes/upernet_internimage_b_512x1024_160k_cityscapes.py
