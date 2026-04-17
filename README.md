@@ -8,11 +8,9 @@ mim install mmcv-full==1.5.0
 mim install mmsegmentation==0.27.0
 pip install timm==0.6.11 mmdet==2.28.1
 pip install opencv-python termcolor yacs pyyaml scipy
-# Please use a version of numpy lower than 2.0
 pip install numpy==1.26.4
 pip install pydantic==1.10.13
 cd ./ops_dcnv3
 sh ./make.sh
-# unit test (should see all checking is True)
 python test.py
 python train.py configs/cityscapes/upernet_internimage_b_512x1024_160k_cityscapes.py
